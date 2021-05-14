@@ -102,10 +102,10 @@ public String readItems()
 		 output += "<td>" + itemDesc + "</td>";
 		 // buttons
 		 output += "<td><input name='btnUpdate' " 
-		 + " type='button' value='Update' class =' btnUpdate btn btn-secondary'></td>"
+		 + " type='button' value='Update' class =' btnUpdate btn btn-secondary button2'></td>"
 		 + "<td><form method='post' action='Item.jsp'>"
 		 + "<input name='btnRemove' " 
-		 + " type='submit' value='Remove' class='btn btn-danger'>"
+		 + " type='submit' value='Delete' class='btn btn-danger button3'>"
 		 + "<input name='hidItemIDDelete' type='hidden' " 
 		 + " value='" + itemID + "'>" + "</form></td></tr>"; 
 		 } 

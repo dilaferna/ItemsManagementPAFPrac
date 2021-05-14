@@ -44,7 +44,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Items Management</title>
 <link rel="stylesheet" href="View/bootstrap.min.css">
 <script src="Components/jquery-3.2.1.min.js"></script>
 <script src="Components/Item.js"></script>
@@ -300,11 +300,11 @@ tr:nth-child(even) {
 <input id="itemDesc" name="itemDesc" type="text" 
  class="form-control form-control-sm">
 <br>
-<input id="btnSave" name="btnSave" type="button" value="Save" 
- class="btn btn-primary">
+<input id="btnSave" name="btnSave" type="button" value="Save" class="btn btn-primary">
 <input type="hidden" id="hidItemIDSave" name="hidItemIDSave" value="">
 </form>
 </div>
+
 <div class="container">
 <%
  out.print(session.getAttribute("statusMsg")); 
@@ -314,7 +314,7 @@ tr:nth-child(even) {
  Item itemObj = new Item(); 
  out.print(itemObj.readItems()); 
 %>
-</div>
 
+</div>
 </body>
 </html>
