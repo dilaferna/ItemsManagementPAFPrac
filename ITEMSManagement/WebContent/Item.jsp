@@ -101,7 +101,6 @@ body {
 h1 {
  color: black;
  text-align: center;
- font: italic 200% fantasy;
 }
 
 h2 {
@@ -283,8 +282,8 @@ tr:nth-child(even) {
 </style>
 </head>
 <body>
-
-<h1>Item Management </h1>
+<br><br><br><br>
+<h1>Items Management</h1>
 <div class="container">
 <form id="formItem" name="formItem" method="post" action="Item.jsp">
  Item code: 
