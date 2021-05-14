@@ -305,7 +305,7 @@ tr:nth-child(even) {
 <input type="hidden" id="hidItemIDSave" name="hidItemIDSave" value="">
 </form>
 </div>
-
+<div class="container">
 <%
  out.print(session.getAttribute("statusMsg")); 
 %> 
@@ -314,7 +314,7 @@ tr:nth-child(even) {
  Item itemObj = new Item(); 
  out.print(itemObj.readItems()); 
 %>
-
+</div>
 
 </body>
 </html>
